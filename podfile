@@ -1,0 +1,22 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '14.5'
+use_frameworks!
+
+target 'HorizontalReversedFlowLayout' do
+  
+# Rx
+pod 'RxSwift', '6.1.0'
+pod 'RxCocoa', '6.1.0'
+pod 'Action'
+pod 'RxDataSources', '~> 5.0'
+pod 'RxViewController'
+
+pod 'SnapKit', '~> 5.0.0'
+pod 'Then'
+pod 'R.swift'
+pod 'JASON', '~> 3.0'
+pod 'MJRefresh'
+
+end
